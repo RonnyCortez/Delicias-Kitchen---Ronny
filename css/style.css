@@ -1,0 +1,184 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+html,body{
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+}
+
+#logo{
+    width: 100%;
+    height: 80px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#logo>.logo{
+    width: auto;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid #8A8070;
+    border-bottom: 2px solid #8A8070;
+    justify-content: center;
+}
+
+nav>ul{
+    display: flex;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li{
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav>ul>li>a:hover{
+    color: #7ABA96;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    height: 100%;
+    width: 75%;
+}
+
+#publi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#me, #sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+#sub{
+    padding-top: 15px;
+    background-color: lightgray;
+}
+
+#sub>a{
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    color: black;
+    background-color: #7ABA96;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.image{
+    padding: 10px 0;
+}
+
+h4.title, a.title{
+    margin: 0;
+}
+
+a.title{
+    padding: 20px 0 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+}
+a.title:hover{
+    color: #8A8070;
+    cursor: pointer;
+}
+
+.subtitle{
+    margin: 0;
+    padding: 15px 5px 10px 5px;
+    color: grey;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    align-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    min-height: 450px;
+    padding-right: 50px;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #7ABA96;
+    border-bottom: 2px solid #7ABA96;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    background-color: black;
+}
+
+footer>ul{
+    display: flex;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer>ul>li{
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
